@@ -1,7 +1,9 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
+sp = spotipy.Spotify(auth=token,client_credentials_manager=SpotifyClientCredentials())
+#requires Client ID and Secret as arguments or passed as Evironement Variables
+
 trackname="California Dreamin'"
 artist= "The Mamas & The Papas"
 album='If You Can Believe Your Eyes & Ears'

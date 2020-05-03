@@ -27,3 +27,4 @@ sp.add_to_queue('spotify:track:0dEIca2nhcxDUV8C5QkPYb', device_id=None)
 # TODO: Remember to add field filters to query.
 #https://developer.spotify.com/documentation/web-api/reference/search/search/
 #https://spotipy.readthedocs.io/en/2.12.0/#examples
+#spotify:playlist:6E1aD3WKDlg0355v4dzbsk (test 1 Playlist)
